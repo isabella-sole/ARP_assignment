@@ -1,0 +1,11 @@
+Instructions to running the assignment.
+Once inside the FinalAssignment_Bisio folder, open two terminals.
+On the first one, enter the following lines:
+$ make
+$ ./Launcher
+
+On the second one, enter:
+$ killall -SIGUSR1 S 
+
+The first terminal will create executables and then the Launcher file will open correctly the files.
+The second terminal will start to send tokens.
